@@ -3,7 +3,7 @@
 ## Project Overview
 This repository is created for managing project source code, branch strategy, and collaboration workflow using GitHub.
 
-## Technologies Used
+## Technologies  Used
 - Git
 - GitHub
 - Maven
