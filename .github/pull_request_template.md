@@ -1,5 +1,5 @@
 ## Description
-Provide a short summary of the changes made in this pull request.
+Provide a short summary  of the changes made in this pull request.
 
 ## Type of Change
 - [ ] Bug Fix
