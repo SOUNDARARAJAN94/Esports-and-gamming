@@ -8,22 +8,27 @@ on:
 jobs:
 
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-
-    - name: Checkout Source Code
+    - name: Checkout Code
       uses: actions/checkout@v4
-
-    - name: Display Files
-      run: ls -la
 
     - name: Build Stage
       run: echo "Build Successful"
 
+  test:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
     - name: Test Stage
       run: echo "Testing Successful"
 
+  deploy:
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
     - name: Deployment Stage
       run: echo "Deployment Successful"
