@@ -1,4 +1,4 @@
-# GitHub Actions Project# Esports-and-gamming
+[![CI/CD Pipeline](https://github.com/SOUNDARARAJAN94/Esports-and-gamming/actions/workflows/main.yml/badge.svg)](https://github.com/SOUNDARARAJAN94/Esports-and-gamming/actions/workflows/main.yml)# GitHub Actions Project# Esports-and-gamming
 
 ## Project Overview
 This repository is created for managing project source code, branch strategy, and collaboration workflow using GitHub.
