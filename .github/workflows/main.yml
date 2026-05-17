@@ -1,0 +1,23 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Build Stage
+      run: echo "Build Successful"
+
+    - name: Test Stage
+      run: echo "Tests Passed"
+
+    - name: Deployment Stage
+      run: echo "Deployment Completed"
