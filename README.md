@@ -1,4 +1,4 @@
-# Esports-and-gamming
+# GitHub Actions Project# Esports-and-gamming
 
 ## Project Overview
 This repository is created for managing project source code, branch strategy, and collaboration workflow using GitHub.
